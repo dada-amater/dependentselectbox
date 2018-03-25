@@ -10,11 +10,11 @@ namespace DependentSelectBox;
 use Nette\Forms\Container;
 use Nette\Forms\Controls\BaseControl as FormControl;
 use Nette\Forms\Controls\SubmitButton;
-use Nette\Object;
+use Nette\SmartObject;
 use \InvalidArgumentException;
 use Nette\InvalidStateException;
 
-class FormControlDependencyHelper extends Object {
+class FormControlDependencyHelper extends SmartObject {
 
 // <editor-fold defaultstate="collapsed" desc="variables">
 
