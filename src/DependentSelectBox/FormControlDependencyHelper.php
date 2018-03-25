@@ -14,8 +14,9 @@ use Nette\SmartObject;
 use \InvalidArgumentException;
 use Nette\InvalidStateException;
 
-class FormControlDependencyHelper extends SmartObject {
+class FormControlDependencyHelper {
 
+	use SmartObject;
 // <editor-fold defaultstate="collapsed" desc="variables">
 
 	/** Dont use directly, button allready created and position was defined in other class */
