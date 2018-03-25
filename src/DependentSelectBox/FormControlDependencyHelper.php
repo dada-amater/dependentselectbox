@@ -92,9 +92,9 @@ class FormControlDependencyHelper {
 	 * @param callback $callback
 	 * 'public function methodName(SubmittButton $button)'
 	 */
-	public function addOnChangeCallback($callback) {
+	public function addOnChangeCallback(Callable $callback) {
 		$this->createButton();
-		$this->button->onClick[] = new \Nette\Callback($callback);
+		$this->button->onClick[] = $callback;
 	}
 
 
