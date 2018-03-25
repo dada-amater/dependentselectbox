@@ -1,5 +1,5 @@
 {
-	"name": "foowie/dependentselectbox",
+	"name": "dada-amater/dependentselectbox",
 	"type": "library",
 	"description": "Selectbox whose options are depended on another selectbox. Library for Nette Framework",
 	"keywords": ["nette", "selectbox"],
@@ -8,10 +8,17 @@
 	"authors": [
 	{
 		"name": "Daniel Robenek"
+	},
+	{
+		"name": "David Dvorak"
 	}
+	
+
 	],
 	"require": {
-		"nette/nette": "*"
+		"nette/forms": "^2.4",
+		"nette/utils": "^2.4",
+		"nette/application": "^2.4"
 	},
 	"autoload": {
 		"psr-0": {
